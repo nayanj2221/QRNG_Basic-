@@ -9,7 +9,7 @@ This repository includes three main scripts:
 
 | File Name                     | Description                                                     |
 |--------------------------------|-----------------------------------------------------------------|
-| **qrng_alphanumeric_alternate (1).py** | Generates alternating digit-letter strings (e.g., `12ej45`).   |
+| **qrng_alphanumeric_alternate .py** | Generates alternating digit-letter strings (e.g., `12ej45`).   |
 | **qrng_alphanumeric_pattern.py**      | Generates custom-pattern strings with parallel sampling and entropy (e.g., `DDL` -> `12e`). |
 | **qrng_bitstring.py**                 | Generates random bitstrings (e.g., `10110011`) with optional histogram visualization. |
 
@@ -44,13 +44,13 @@ pip install qiskit>=2.0 qiskit-aer>=0.12.0 numpy matplotlib>=3.5.0
 
 ### 1. **Quantum Alphanumeric Alternate Generator**
 
-**File:** `qrng_alphanumeric_alternate (1).py`
+**File:** `qrng_alphanumeric_alternate.py`
 
 - **Purpose:** Generates strings with alternating digits and lowercase letters (e.g., `12ej45`).
 - **How to run:**
 
   ```bash
-  python qrng_alphanumeric_alternate\ \(1\).py
+  python qrng_alphanumeric_alternate.py
   ```
 
 - **Sample output:**
